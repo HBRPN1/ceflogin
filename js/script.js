@@ -475,4 +475,11 @@ closeModal('newPasswordModal');
     }
 
     window.onload = requestPlayerName;
-			
+
+
+
+ try {
+        eval('console.log("✅ Eval მუშაობს Render-ზე")');
+    } catch(e) {
+        console.error("❌ Eval არ მუშაობს:", e);
+    }
